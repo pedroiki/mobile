@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Bootstrap Scripts -->
+
+
+
+  <!-- https://github.com/daneden/animate.css-->
+
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  </head>
+
+
+
+  <style>
+    body {
+      background-color: lightblue;
+    }
+  </style>
+
+
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: lightblue;
+    }
+
+    li {
+      float: left;
+      border-right: 1px solid black;
+    }
+
+    li:last-child {
+      border-right: none;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+  </style>
+
+
+  <h1 class="animated rubberBand">Junior Front End Developer</h1> <!-- animation:  class="animated +animation"-->
+
+
+</head>
+
+<body>
+
+
+
+  <!-- Nav Bar -->
+
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">My Portfolio</a></li>
+    <li><a href="#contact">My Contact</a></li>
+    <li style="float:right"><a href="#about">About</a></li>
+
+  </ul>
+
+
+
+
+
+  <header class="svg-header">
+    <svg>
+      Carlos Gomes
+      <mask id="mask">
+        <rect width="62%" height="100%" />
+        <text>
+          <tspan x="0" y="60%">Carlos</tspan>
+          <tspan x="0" dy="0.8em">Gomes</tspan>
+        </text>
+      </mask>
+      <rect width="100%" height="100%" />
+    </svg>
+
+<!-- video -->
+
+    <video autoplay muted>
+        <source src="https://0.s3.envato.com/h264-video-previews/036eaefb-7428-47fc-85b9-fc9ce42646f7/15981383.mp4" type="video/mp4"></source>
+    </video>
+
+    <!-- <video id="video_target" src="https://0.s3.envato.com/h264-video-previews/036eaefb-7428-47fc-85b9-fc9ce42646f7/15981383.mp4" autoplay loop></video> -->
+  </header>
+
+  <header class="no-svg-header">
+    <h1>Carlos Gomes</h1>
+  </header>
+
+
+  <div class="container">
+    <section>
+      <h1 class="animated infinite bounce delay-2s">Welcome to my Webpage!</h1> <!-- using a animate effect-->
+      <p>I am a Junior Web Developer ,           for better view i just using Google Chrome.</p>
+    </section>
+  </div>
+
+
+  <section id="title">
+
+
+    <!-- Title -->
+
+    <div>
+      <h1>My Portfolio.</h1>
+    </div>
+    <div>
+      <img src="images/pedro-cv-2.jpg" alt="pedro-images" width="198" height="289" class="img-fluid rounded-circle">
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <h3>Tech Skills</h3>
+    <p>Windons , Linux , Mac .</p>
+
+    <h3>Developer Skills</h3>
+    <p>Front End Developer : Html5, Css ,Java Script ,Bootstrap.</p>
+
+    <h3>Soft and Language skills</h3>
+    <p>Fast Leaner, English / Portuguese / Spanish .</p>
+
+  </section>
+
+
+  <div>
+    <button class="btn-lg outline-dark">Contact
+      <!-- botao mais largo e sem bordas-->
+  </div>
+  <br>
+  <br>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Carlos Gomes Junior Web Developer 2019</p>
+
+  </footer>
+
+
+</body>
+
+
+</html>
